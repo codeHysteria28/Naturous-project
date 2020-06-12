@@ -45,7 +45,7 @@
                     <span class="heading-primary--main">Outdoors</span>
                     <span class="heading-primary--sub">is where life happens</span>
                 </h1>
-                <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+                <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
             </div>
         </header>
 
@@ -119,7 +119,7 @@
                 </div>
             </section>
 
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">Most popular tours</h2>
                 </div>
@@ -147,7 +147,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$297</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -175,7 +175,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$497</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -203,7 +203,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$897</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -324,13 +324,33 @@
                         Built by <a href="https://github.com/GlobalGraphic" class="footer__link" target="_blank">Branislav Buna</a> 
                         for his online course <a href="https://www.udemy.com/course/advanced-css-and-sass" class="footer__link" target="_blank">Advanced CSS and SCSS</a>.
                         Copyright &copy; <a href="https://twitter.com/jonasschmedtman" class="footer__link" target="_blank">Jonas Schmedtmann</a>. 
-                        sYou are 100% allowed to use this webpage for both personal
+                        You are 100% allowed to use this webpage for both personal
                         and commercial use, but NOT to claim it as your own design. A credit to the original author, Jonas
                         Schmedtmann, is of course highly appreciated!
                     </p>
                 </div>
             </div>
         </footer>
+
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="tour photo" class="popup__img">
+                    <img src="img/nat-9.jpg" alt="tour photo" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Pleae read this terms before booking</h3>
+                    <p class="popup__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. A diam sollicitudin tempor id eu nisl. Egestas dui id ornare arcu. Quisque sagittis purus sit amet volutpat consequat mauris nunc congue. 
+                        Sapien faucibus et molestie ac feugiat sed lectus. Et malesuada fames ac turpis egestas maecenas pharetra convallis posuere. At imperdiet dui accumsan sit amet nulla facilisi morbi. Elit sed vulputate mi sit amet mauris commodo quis. Ornare arcu odio ut sem nulla pharetra. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Massa placerat duis ultricies lacus sed turpis tincidunt. 
+                        Ut eu sem integer vitae justo eget magna fermentum. Ultrices in iaculis nunc sed augue lacus viverra
+                    </p>
+                    <a href="#" class="btn btn--green">Book now</a>
+                </div>
+            </div>
+        </div>
 
         <!-- <section class="grid-test">
             <div class="row">
